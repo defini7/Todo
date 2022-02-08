@@ -1,0 +1,53 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    text-align: center;
+}
+
+#taskList {
+    font-size: 25px;
+    list-style: none;
+    font-family: arial;
+}
+
+#ownerlink {
+    font-family: arial;
+    font-size: 15px;
+}
+
+li {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #4CAF50;
+    font-family: arial;
+    font-weight: bold;
+}
+
+input {
+    font-size: 20px;
+    text-decoration: none;
+    outline: #4CAF50;
+    border: #4CAF50;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
